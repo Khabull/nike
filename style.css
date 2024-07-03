@@ -1,3 +1,51 @@
-a{
-    color: white;
+body{
+    background-color: white;
+    width: 100%;
 }
+main{
+    margin-top: 55px;
+}
+
+a img{
+    width: 50px;
+    height: auto;
+}
+nav a{
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+}
+
+.icons{
+    width: 25px;
+    height: auto;
+}
+
+.iconbox{
+    margin-right: 100px;
+}
+header{
+    width: 100%;
+display: flex;
+justify-content: space-between ;
+align-items: center;
+/* z-index: 1;  */
+position: fixed;
+background-color: white;
+top: 0 ;
+}
+
+.iconbox a img{
+width: 25px;
+height: auto;
+}
+
+#nikeIMG1 {
+    width: 100vw;
+    height: auto;
+    object-fit: contain;
+}
+
+/* a{
+    color: white;
+} */
