@@ -23,6 +23,9 @@ nav a{
     margin: 20px;
     color: black;
 }
+nav a:hover{
+    border-bottom: 2px solid black;
+}
 
 .icons{
     width: 25px;
@@ -61,6 +64,9 @@ h1{
 #text1{
     text-align: center;
     margin-top: 0;   
+        font-family: "Ga Maamli", sans-serif;
+        font-weight: 400;
+        font-style: normal;
 }
 .button{
     width: 250px;
@@ -69,11 +75,30 @@ h1{
     padding: 5px 13px;
     display: inline-block;
 }
+.button:hover{
+    background-color: red;
+}
 .button p {
     color: white;
-  
-    
 }
+#4_baraa{
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.baraa{
+    width: 50%;
+    display: flex;
+    position: relative;
+}
+.baraa img{
+    width: 100%;
+    height: auto;
+}
+
+
 
 /* a{
     color: white;
