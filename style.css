@@ -69,24 +69,28 @@ h1{
         font-style: normal;
 }
 .button{
-    width: 250px;
+    width: 150px;
     background-color: black;
     border-radius: 30px;
     padding: 5px 13px;
     display: inline-block;
+    margin-bottom: 50px;
 }
 .button:hover{
     background-color: red;
 }
 .button p {
     color: white;
+    margin: 0;
 }
-#4_baraa{
-    width: 100px;
+#baraa_4{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+    margin: 10px 0px 10px 0px;
+    background-color: yellow;
 }
 .baraa{
     width: 50%;
@@ -97,9 +101,68 @@ h1{
     width: 100%;
     height: auto;
 }
+.baraanii_ner{
+position: absolute;
+bottom: 30px;
+left: 30px; */
+text-align: left;
+/* color: white; */
+}
+.baraanii_ner p,
+.baraanii_ner h2
+{
+color: white;
+}
 
+#button1 p {
+color: black;
+margin: 0;
 
+}
+#button1{
+    width: 50px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px 20px;
+    display: inline-block;
+    /* background-color: white;
+    border-radius: 30px;
+    padding: 5px 13px;
+    margin-left: 20px;
+    display: inline-block; */
+}
+#catalog{
+    display: flex;
+    gap: 20px;
+}
+.sneakers{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#membership{
+    
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.membershipItem{
+    display: flex;
+    position: relative;
+}
+.membershipDesc{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    
+}
+.membershipDesc p,
+.membershipDesc h2{
+    color: white;
+}
 
 /* a{
     color: white;
-} */
+}
